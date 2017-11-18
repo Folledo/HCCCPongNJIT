@@ -15,6 +15,9 @@
 		CDA0193F1FB8334D00235AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA0193D1FB8334D00235AEC /* Main.storyboard */; };
 		CDA019411FB8334D00235AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA019401FB8334D00235AEC /* Assets.xcassets */; };
 		CDA019441FB8334D00235AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA019421FB8334D00235AEC /* LaunchScreen.storyboard */; };
+		CDF94D491FB8490F00F565E0 /* CGFloat+Extensions copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF94D481FB8490F00F565E0 /* CGFloat+Extensions copy.swift */; };
+		CDF94D4C1FB868E500F565E0 /* BallTrail copy.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDF94D4A1FB868E400F565E0 /* BallTrail copy.sks */; };
+		CDF94D4D1FB868E500F565E0 /* BrokenPlatform copy.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDF94D4B1FB868E400F565E0 /* BrokenPlatform copy.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CDA019401FB8334D00235AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA019431FB8334D00235AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA019451FB8334D00235AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF94D481FB8490F00F565E0 /* CGFloat+Extensions copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions copy.swift"; sourceTree = SOURCE_ROOT; };
+		CDF94D4A1FB868E400F565E0 /* BallTrail copy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "BallTrail copy.sks"; sourceTree = SOURCE_ROOT; };
+		CDF94D4B1FB868E400F565E0 /* BrokenPlatform copy.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "BrokenPlatform copy.sks"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				CDA019391FB8334D00235AEC /* GameScene.swift */,
 				CDA0193B1FB8334D00235AEC /* GameViewController.swift */,
 				CDA0193D1FB8334D00235AEC /* Main.storyboard */,
+				CDF94D481FB8490F00F565E0 /* CGFloat+Extensions copy.swift */,
+				CDF94D4A1FB868E400F565E0 /* BallTrail copy.sks */,
+				CDF94D4B1FB868E400F565E0 /* BrokenPlatform copy.sks */,
 				CDA019401FB8334D00235AEC /* Assets.xcassets */,
 				CDA019421FB8334D00235AEC /* LaunchScreen.storyboard */,
 				CDA019451FB8334D00235AEC /* Info.plist */,
@@ -133,10 +142,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA0193F1FB8334D00235AEC /* Main.storyboard in Resources */,
+				CDF94D4C1FB868E500F565E0 /* BallTrail copy.sks in Resources */,
 				CDA019361FB8334D00235AEC /* GameScene.sks in Resources */,
 				CDA019411FB8334D00235AEC /* Assets.xcassets in Resources */,
 				CDA019441FB8334D00235AEC /* LaunchScreen.storyboard in Resources */,
 				CDA019381FB8334D00235AEC /* Actions.sks in Resources */,
+				CDF94D4D1FB868E500F565E0 /* BrokenPlatform copy.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +160,7 @@
 			files = (
 				CDA0193A1FB8334D00235AEC /* GameScene.swift in Sources */,
 				CDA0193C1FB8334D00235AEC /* GameViewController.swift in Sources */,
+				CDF94D491FB8490F00F565E0 /* CGFloat+Extensions copy.swift in Sources */,
 				CDA019341FB8334D00235AEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
